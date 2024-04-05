@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.3'
+       // classpath 'com.amplifyframework:amplify-tools-gradle-plugin:1.0.2'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+
+        /*
+        // Amplify plugins
+        implementation 'com.amplifyframework:core:1.6.5'
+        implementation 'com.amplifyframework:aws-api:1.6.5'
+        implementation 'com.amplifyframework:aws-datastore:1.6.5'
+
+        // Support for Java 8 features
+        coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.0.10'
+        */
+
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+/*
+android {
+    compileOptions {
+        // Support for Java 8 features
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }*/
+    Copy
+
+//apply plugin: 'com.amplifyframework.amplifytools'

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".patient_include_family">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/patient_family_home_card"
+        android:layout_width="404dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="380dp"
+        app:cardBackgroundColor="#CC99FF"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/patient_family_add_member_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006">
+
+
+        <ImageView
+
+            android:id="@+id/image_patient_family_logo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/familylogo" />
+
+        <TextView
+            android:id="@+id/patient_family_home_title"
+            android:layout_width="261dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/delius_unicase"
+            android:text="ENTER YOUR FAMILY MEMBERS DETAILS"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/patient_family_heading2"
+        android:layout_width="336dp"
+        android:layout_height="58dp"
+        android:fontFamily="@font/delius_unicase"
+        android:gravity="center"
+        android:text="All Members information available"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/patient_family_member1_card"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/patient_family_home_card"
+        app:layout_constraintVertical_bias="0.714" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/patient_family_member1_card"
+        android:layout_width="134dp"
+        android:layout_height="138dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572">
+
+
+        <ImageView
+
+            android:id="@+id/image_patient_family_member1"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profilelogo" />
+
+
+        <TextView
+            android:id="@+id/patient_family_member1_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/delius_unicase"
+            android:text="SAHIL"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/patient_family_member2_card"
+        android:layout_width="134dp"
+        android:layout_height="138dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="50dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571">
+
+
+        <ImageView
+
+            android:id="@+id/image_patient_family_member2"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profilelogo" />
+
+
+        <TextView
+            android:id="@+id/patient_family_member2_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/delius_unicase"
+            android:text="ILMA"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/patient_family_member3_card"
+        android:layout_width="134dp"
+        android:layout_height="138dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="50dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833">
+
+
+        <ImageView
+
+            android:id="@+id/image_patient_family_member3"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profilelogo" />
+
+
+        <TextView
+            android:id="@+id/patient_family_member3_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/delius_unicase"
+            android:text="YASH"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/patient_family_add_member_card"
+        android:layout_width="67dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="31dp"
+        app:cardBackgroundColor="#48DEDE"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/add_member_image"
+            android:layout_width="50dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/addfamilymemberlogo" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

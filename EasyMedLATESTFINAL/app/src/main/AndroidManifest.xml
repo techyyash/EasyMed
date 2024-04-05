@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.easymed">
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="EASYMEDLATEST"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EasyMed">
+        <activity
+            android:name=".qrscanner"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_History"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Pharmacy"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Doctor"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_scan"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Staff"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Profile"
+            android:exported="false" />
+        <activity
+            android:name=".admin_home"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".doctor_registration"
+            android:exported="false" />
+        <activity
+            android:name=".patient_map"
+            android:exported="false" />
+        <activity
+            android:name=".patient_doctor_profile"
+            android:exported="true" />
+        <activity
+            android:name=".Doctor_patient_profile"
+            android:exported="true" />
+        <activity
+            android:name=".patient_include_family"
+            android:exported="true" />
+        <activity
+            android:name=".patient_profile"
+            android:exported="true" />
+        <activity
+            android:name=".hospital_stats"
+            android:exported="true" />
+        <activity
+            android:name=".hospital_pharmacy"
+            android:exported="true" />
+        <activity
+            android:name=".hospital_Qrcode_view"
+            android:exported="true" />
+        <activity
+            android:name=".hospital_database_connection"
+            android:exported="true" />
+        <activity
+            android:name=".hospital_profile"
+            android:exported="true" />
+        <activity
+            android:name=".patient_home"
+            android:exported="true" />
+        <activity
+            android:name=".hospital_home"
+            android:exported="true" />
+        <activity
+            android:name=".login_patient"
+            android:exported="true" />
+        <activity
+            android:name=".login_hospital"
+            android:exported="true" />
+        <activity
+            android:name=".home"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Capture"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"/>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
