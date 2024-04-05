@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_History">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/stats_hospital_home_card"
+        android:layout_width="404dp"
+        android:layout_height="250dp"
+        app:cardBackgroundColor="#FDB777"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006">
+
+
+        <ImageView
+
+            android:id="@+id/image_hospital_extract"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/statslogo" />
+
+
+        <TextView
+            android:id="@+id/hospital_ststs_lable1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="150dp"
+            android:fontFamily="@font/delius_unicase"
+            android:text="PREVIOUS WEEK"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/hospital_ststs_label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="190dp"
+            android:fontFamily="@font/allan"
+            android:text="STATISTICS"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="343dp"
+        android:layout_height="245dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stats_hospital_home_card"
+        app:layout_constraintVertical_bias="0.356"
+        app:srcCompat="@drawable/graphimage" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/stats_hospital_week_card"
+        android:layout_width="152dp"
+        android:layout_height="64dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="50dp"
+        app:cardBackgroundColor="#48DEDE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913">
+
+        <TextView
+            android:id="@+id/stats_hospital_week_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="18dp"
+            android:fontFamily="@font/finger_paint"
+            android:text="WEEK 1"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/stats_hospital_week_previous_card"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/backwordlogo" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/stats_hospital_week_next_card"
+        android:layout_width="56dp"
+        android:layout_height="60dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.878"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.913">
+
+
+
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="83dp"
+            android:layout_marginLeft="-15dp"
+            android:layout_marginTop="-15dp"
+            android:layout_height="88dp"
+            app:srcCompat="@drawable/nextbuttonlogo3" />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

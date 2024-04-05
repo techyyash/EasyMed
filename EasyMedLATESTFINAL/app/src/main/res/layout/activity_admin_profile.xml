@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Profile">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/pharmacy_hospital_home_card"
+        android:layout_width="409dp"
+        android:layout_height="214dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.006">
+
+        <ImageView
+
+            android:id="@+id/image_pharmacy_hospital"
+            android:layout_width="140dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/hospitalprofilelogo" />
+
+
+        <TextView
+            android:id="@+id/hospital_pharmacy_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="160dp"
+            android:fontFamily="@font/delius_unicase"
+            android:text="HOSPITAL PROFILE"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <RelativeLayout
+        android:id="@+id/admin_pharmacy_layout1"
+        android:layout_width="407dp"
+        android:layout_height="467dp"
+        android:layout_marginBottom="16dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/delius_unicase"
+            android:text="NAME"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="85dp"
+            android:fontFamily="@font/delius_unicase"
+            android:src="@drawable/maillogo1"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="165dp"
+            android:fontFamily="@font/delius_unicase"
+            android:src="@drawable/mobilelogo"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="235dp"
+            android:fontFamily="@font/delius_unicase"
+            android:src="@drawable/locationlogo"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="325dp"
+            android:fontFamily="@font/delius_unicase"
+            android:text="PATIENT COUNT"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="231dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="85dp"
+            android:ems="10"
+            android:fontFamily="@font/delius_unicase"
+            android:text="christ@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="227dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="165dp"
+            android:ems="10"
+            android:fontFamily="@font/delius_unicase"
+            android:text="080-98765687"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="227dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="235dp"
+            android:ems="10"
+            android:fontFamily="@font/delius_unicase"
+            android:text="Kashi Temple Street Vijay Nagar Bangalore"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="227dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:fontFamily="@font/delius_unicase"
+            android:text="CHRIST HOSPITAL"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="325dp"
+            android:fontFamily="@font/delius_unicase"
+            android:text="12356"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
